@@ -5,5 +5,5 @@ let arduino = new five.Board();
 
 arduino.on("ready", function() {
     let led = new five.Led(13);
-    led.blink(500);
+    led.blink(500); // blink is a built-in function. Time is in msec
 })
